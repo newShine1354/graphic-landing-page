@@ -7,15 +7,14 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
+    --primary: #b30422;
+    --secondary: #eb0830;
+    --tertiary: #01213a;
+    --hover: #b81707;
+    --text: #4d4d4d;
+    --background: #ffffff;
     --foreground: #ededed;
   }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
 }
